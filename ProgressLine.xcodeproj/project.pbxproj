@@ -15,6 +15,7 @@
 		2E8C06D01EE5037B00FD6E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C06CE1EE5037B00FD6E74 /* LaunchScreen.storyboard */; };
 		2E8C06DB1EE5037B00FD6E74 /* ProgressLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06DA1EE5037B00FD6E74 /* ProgressLineTests.m */; };
 		2E8C06E61EE5037B00FD6E74 /* ProgressLineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06E51EE5037B00FD6E74 /* ProgressLineUITests.m */; };
+		2E8C06F51EE503E000FD6E74 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C06F41EE503E000FD6E74 /* ProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2E8C06E11EE5037B00FD6E74 /* ProgressLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8C06E51EE5037B00FD6E74 /* ProgressLineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressLineUITests.m; sourceTree = "<group>"; };
 		2E8C06E71EE5037B00FD6E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8C06F31EE503E000FD6E74 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		2E8C06F41EE503E000FD6E74 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +108,8 @@
 				2E8C06C41EE5037B00FD6E74 /* AppDelegate.m */,
 				2E8C06C61EE5037B00FD6E74 /* ViewController.h */,
 				2E8C06C71EE5037B00FD6E74 /* ViewController.m */,
-				2E8C06C91EE5037B00FD6E74 /* Main.storyboard */,
-				2E8C06CC1EE5037B00FD6E74 /* Assets.xcassets */,
-				2E8C06CE1EE5037B00FD6E74 /* LaunchScreen.storyboard */,
-				2E8C06D11EE5037B00FD6E74 /* Info.plist */,
+				2E8C06F31EE503E000FD6E74 /* ProgressView.h */,
+				2E8C06F41EE503E000FD6E74 /* ProgressView.m */,
 				2E8C06C01EE5037B00FD6E74 /* Supporting Files */,
 			);
 			path = ProgressLine;
@@ -117,6 +118,10 @@
 		2E8C06C01EE5037B00FD6E74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E8C06C91EE5037B00FD6E74 /* Main.storyboard */,
+				2E8C06CC1EE5037B00FD6E74 /* Assets.xcassets */,
+				2E8C06CE1EE5037B00FD6E74 /* LaunchScreen.storyboard */,
+				2E8C06D11EE5037B00FD6E74 /* Info.plist */,
 				2E8C06C11EE5037B00FD6E74 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E8C06C81EE5037B00FD6E74 /* ViewController.m in Sources */,
+				2E8C06F51EE503E000FD6E74 /* ProgressView.m in Sources */,
 				2E8C06C51EE5037B00FD6E74 /* AppDelegate.m in Sources */,
 				2E8C06C21EE5037B00FD6E74 /* main.m in Sources */,
 			);
@@ -518,6 +524,7 @@
 				2E8C06EC1EE5037B00FD6E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E8C06ED1EE5037B00FD6E74 /* Build configuration list for PBXNativeTarget "ProgressLineTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +533,7 @@
 				2E8C06EF1EE5037B00FD6E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E8C06F01EE5037B00FD6E74 /* Build configuration list for PBXNativeTarget "ProgressLineUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +542,7 @@
 				2E8C06F21EE5037B00FD6E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
